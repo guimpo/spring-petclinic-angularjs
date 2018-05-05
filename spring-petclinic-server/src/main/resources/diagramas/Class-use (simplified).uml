@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.samples.petclinic.model</OriginalElement>
+  <nodes>
+    <node x="171.47760416666668" y="260.0">org.springframework.samples.petclinic.model.Vet</node>
+    <node x="0.0" y="160.0">org.springframework.samples.petclinic.model.ValidatorTests</node>
+    <node x="87.85260416666665" y="80.0">org.springframework.samples.petclinic.model.Person</node>
+    <node x="408.35260416666665" y="0.0">org.springframework.samples.petclinic.model.BaseEntity</node>
+    <node x="167.97760416666668" y="340.0">org.springframework.samples.petclinic.model.Vets</node>
+    <node x="418.0" y="160.0">org.springframework.samples.petclinic.model.PetType</node>
+    <node x="396.35052083333335" y="80.0">org.springframework.samples.petclinic.model.NamedEntity</node>
+    <node x="304.0" y="160.0">org.springframework.samples.petclinic.model.Owner</node>
+    <node x="368.0083333333333" y="260.0">org.springframework.samples.petclinic.model.Pet</node>
+    <node x="372.7583333333333" y="340.0">org.springframework.samples.petclinic.model.Visit</node>
+    <node x="171.0" y="160.0">org.springframework.samples.petclinic.model.Specialty</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.samples.petclinic.model.PetType" target="org.springframework.samples.petclinic.model.NamedEntity">
+      <point x="0.0" y="-15.0" />
+      <point x="470.5" y="140.0" />
+      <point x="465.85052083333335" y="140.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.samples.petclinic.model.Pet" target="org.springframework.samples.petclinic.model.PetType">
+      <point x="10.0" y="-15.0" />
+      <point x="413.0083333333333" y="220.0" />
+      <point x="444.25" y="220.0" />
+      <point x="-26.25" y="15.0" />
+    </edge>
+    <edge source="org.springframework.samples.petclinic.model.Person" target="org.springframework.samples.petclinic.model.BaseEntity">
+      <point x="0.0" y="-15.0" />
+      <point x="135.85260416666665" y="55.0" />
+      <point x="428.85260416666665" y="55.0" />
+      <point x="-41.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.samples.petclinic.model.Pet" target="org.springframework.samples.petclinic.model.Visit">
+      <point x="8.75" y="15.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+    <edge source="org.springframework.samples.petclinic.model.Specialty" target="org.springframework.samples.petclinic.model.NamedEntity">
+      <point x="0.0" y="-15.0" />
+      <point x="227.5" y="140.0" />
+      <point x="419.5171875" y="140.0" />
+      <point x="-46.33333333333334" y="15.0" />
+    </edge>
+    <edge source="org.springframework.samples.petclinic.model.Vets" target="org.springframework.samples.petclinic.model.Vet">
+      <point x="19.75" y="-15.0" />
+      <point x="227.22760416666668" y="315.0" />
+      <point x="225.47760416666668" y="315.0" />
+      <point x="18.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.samples.petclinic.model.Owner" target="org.springframework.samples.petclinic.model.Person">
+      <point x="0.0" y="-15.0" />
+      <point x="351.0" y="130.0" />
+      <point x="171.85260416666665" y="130.0" />
+      <point x="36.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.samples.petclinic.model.NamedEntity" target="org.springframework.samples.petclinic.model.BaseEntity">
+      <point x="0.0" y="-15.0" />
+      <point x="465.85052083333335" y="55.0" />
+      <point x="469.85260416666665" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.samples.petclinic.model.Visit" target="org.springframework.samples.petclinic.model.Pet">
+      <point x="-15.600000000000001" y="-15.0" />
+      <point x="396.15833333333336" y="315.0" />
+      <point x="394.2583333333333" y="315.0" />
+      <point x="-8.75" y="15.0" />
+    </edge>
+    <edge source="org.springframework.samples.petclinic.model.ValidatorTests" target="org.springframework.samples.petclinic.model.Person">
+      <point x="-37.5" y="-15.0" />
+      <point x="37.5" y="140.0" />
+      <point x="99.85260416666665" y="140.0" />
+      <point x="-36.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.samples.petclinic.model.Pet" target="org.springframework.samples.petclinic.model.NamedEntity">
+      <point x="30.0" y="-15.0" />
+      <point x="433.0083333333333" y="240.0" />
+      <point x="533.6026041666667" y="240.0" />
+      <point x="533.6026041666667" y="140.0" />
+      <point x="512.1838541666667" y="140.0" />
+      <point x="46.33333333333337" y="15.0" />
+    </edge>
+    <edge source="org.springframework.samples.petclinic.model.Pet" target="org.springframework.samples.petclinic.model.Owner">
+      <point x="-20.0" y="-15.0" />
+      <point x="383.0083333333333" y="230.0" />
+      <point x="339.25" y="230.0" />
+      <point x="-11.75" y="15.0" />
+    </edge>
+    <edge source="org.springframework.samples.petclinic.model.Visit" target="org.springframework.samples.petclinic.model.BaseEntity">
+      <point x="31.200000000000003" y="-15.0" />
+      <point x="442.95833333333337" y="315.0" />
+      <point x="558.8333333333333" y="315.0" />
+      <point x="558.8333333333333" y="55.0" />
+      <point x="510.85260416666665" y="55.0" />
+      <point x="41.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.samples.petclinic.model.Owner" target="org.springframework.samples.petclinic.model.Pet">
+      <point x="35.25" y="15.0" />
+      <point x="386.25" y="210.0" />
+      <point x="403.0083333333333" y="210.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+    <edge source="org.springframework.samples.petclinic.model.Vet" target="org.springframework.samples.petclinic.model.Person">
+      <point x="-24.0" y="-15.0" />
+      <point x="183.47760416666668" y="240.0" />
+      <point x="160.5" y="240.0" />
+      <point x="160.5" y="140.0" />
+      <point x="147.85260416666665" y="140.0" />
+      <point x="12.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.samples.petclinic.model.Vet" target="org.springframework.samples.petclinic.model.Specialty">
+      <point x="24.0" y="-15.0" />
+      <point x="231.47760416666668" y="240.0" />
+      <point x="255.75" y="240.0" />
+      <point x="28.25" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="267.0" y="132.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
